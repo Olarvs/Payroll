@@ -94,7 +94,7 @@
 			
 			$('.view_payroll').click(function(){
 				var $id=$(this).attr('data-id');
-				uni_modal("Employee Payslip","view_payslip.php?id="+$id,"large")
+				uni_modal("Employee's Payslip","view_payslip.php?id="+$id,"large")
 				
 			});
 			

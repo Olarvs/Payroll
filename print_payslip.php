@@ -106,13 +106,8 @@
 		
 		</div>
 	</div>
-	</div>
 	<hr>
-	<div class="row">
-		<div class="col-md-6">
-			<button class="btn btn-success btn-sm btn-block col-md-2 float-right" type="button" id="print_btn1"><span class="fa fa-print"></span> Print</button>
-		</div>
-	</div>
+	
 		
 </div>
 <style type="text/css">
@@ -132,7 +127,7 @@
 <script>
 	$(document).ready(function(){
 		$('#print_btn1').click(function(){
-				var nw = window.open("print_payslip.php?id=<?php echo $_GET['id'] ?>","_blank","height=500,width=800")
+				var nw = window.open("view_payslip.php?id=<?php echo $_GET['id'] ?>","_blank","height=500,width=800")
 				setTimeout(function(){
 					nw.print()
 					setTimeout(function(){
