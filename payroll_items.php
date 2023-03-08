@@ -12,7 +12,7 @@
 					<div class="card-header">
 						<span><b>Payroll : <?php echo $pay['ref_no'] ?></b></span>
 						
-						<button class="btn btn-primary btn-sm btn-block col-md-2 float-right" type="button" id="new_payroll_btn"><span class="fa fa-plus"></span> Re-Caclulate Payroll</button>
+						<button class="btn btn-primary btn-sm btn-block col-md-2 float-right" type="button" id="new_payroll_btn"><span class="fa fa-plus"></span> Re-Calculate Payroll</button>
 					</div>
 					<div class="card-body">
 						<div class="row">
