@@ -109,7 +109,7 @@
 	</div>
 	<hr>
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6" style="margin-left: 6%;">
 			<button class="btn btn-success btn-sm btn-block col-md-2 float-right" type="button" id="print_btn1"><span class="fa fa-print"></span> Print</button>
 		</div>
 	</div>
